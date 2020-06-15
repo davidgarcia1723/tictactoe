@@ -72,7 +72,7 @@ newSquares[i] = playerXIsNext ? "X" : "O"
             return "The game ended in a draw!"
         } 
         else {
-            return "Next player is player" + (playerXIsNext ? "X" : "O")
+            return "Next player is player " + (playerXIsNext ? "X" : "O")
         }
     }
 
